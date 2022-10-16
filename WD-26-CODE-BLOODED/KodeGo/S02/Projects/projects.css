@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #FFD6EC;
+}
+
+.navigation-bar {
+    background-color: #FF74B1;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+li a{
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.project-info {
+    width: 700px;
+    height: 300px;
+    margin: 60px auto;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 5px 2px #FF74B1;
+    text-decoration: underline;
+}
+
+.diagram>img {
+    width: 300px;
+    height: 315px;
+    position: fixed;
+    top: 150px;
+    left: 253px;
+    border-radius: 20px;
+}
+
+.description-box {
+    /* background-color: white; */
+    width: 400px;
+    position: absolute;
+    top: 160px;
+    right: 250px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.formula>img {
+    width: 400px;
+    height: 100px;
+    position: fixed;
+    top: 290px;
+    right: 275px;
+    border-radius: 20px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: #FF74B1;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+ }

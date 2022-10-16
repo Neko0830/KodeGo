@@ -1,0 +1,37 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 32px;
+}
+.blue{
+    color: darkblue;
+}
+#capital{
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.list{
+    width: 100%;
+    background-color: greenyellow;
+}
+div img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+div + ul{
+    list-style-type: none;
+}
+div ~ ul{
+    text-align: center;
+}
+
+section > ul {
+    letter-spacing: .5rem;
+}
+
+
